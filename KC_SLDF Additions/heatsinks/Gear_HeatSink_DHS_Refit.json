@@ -1,0 +1,33 @@
+{
+    "DissipationCapacity" : 30,
+    "Description" : {
+        "Cost" : 1500000,
+        "Rarity" : 1,
+        "Purchasable" : true,
+        "Manufacturer" : "Genaric",
+        "Model" : "Double Refit",
+        "UIName" : "Engine DHS Refit",
+        "Id" : "Gear_HeatSink_DHS_Refit",
+        "Name" : "Heat Sink Refit (D)",
+        "Details" : "The LosTech Double Heat Sink refit kit replaces all the heatsinks in the engine with their double models. However it takes up a small amount of space in the Center Torso to do so.",
+        "Icon" : "uixSvgIcon_equipment_Heatsink"
+    },
+    "BonusValueA" : "- 30 Heat / Turn",
+    "BonusValueB" : "",
+    "ComponentType" : "HeatSink",
+    "ComponentSubType" : "Heatsink",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 0,
+    "AllowedLocations" : "CenterTorso",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : null,
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

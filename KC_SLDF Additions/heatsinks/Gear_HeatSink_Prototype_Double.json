@@ -1,0 +1,33 @@
+{
+    "DissipationCapacity" : 5,
+    "Description" : {
+        "Cost" : 50000,
+        "Rarity" : 2,
+        "Purchasable" : true,
+        "Manufacturer" : "NAIS",
+        "Model" : "Standard",
+        "UIName" : "Prototype Heat Sink (D)",
+        "Id" : "Gear_HeatSink_Prototype_Double",
+        "Name" : "Prototype Heat Sink (D)",
+        "Details" : "The Prototype Double Heat Sink though more commonly refered to as Freezers, were developed by the New Avalon Institute of Science in 3022 and initally produced on the planet of Hoff. Functionally they are nearly identical to the LosTech Double Heat Sink, but they can't be mounted in the engine like their LosTech counterparts.",
+        "Icon" : "uixSvgIcon_equipment_Heatsink"
+    },
+    "BonusValueA" : "- 5 Heat / Turn",
+    "BonusValueB" : "",
+    "ComponentType" : "HeatSink",
+    "ComponentSubType" : "Heatsink",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 3,
+    "Tonnage" : 1,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : null,
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

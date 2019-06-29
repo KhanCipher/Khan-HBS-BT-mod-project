@@ -1,0 +1,25 @@
+{
+    "Name": "KC_SLDF Additions",
+    "Enabled": true,
+
+	"Version": "0.1",
+	"PackagedOn": "2018-06-21T06:45:00Z",
+    "Description": "Changesalotofweaponstats,aswellasaddingnewthings",
+    "Author": "KhanCipher",
+	
+	"Manifest": [
+		{ "Type": "AmmunitionBoxDef", "Path": "ammunitionBox", "AddToDB": true },
+		{ "Type": "ChassisDef", "Path": "chassis", "AddToDB": true },
+		{ "Type": "HardpointDataDef", "Path": "hardpoints", "AddToDB": true },
+		{ "Type": "HeatSinkDef", "Path": "heatsinks", "AddToDB": true },
+		{ "Type": "MechDef", "Path": "mech", "AddToDB": true },
+		{ "Type": "MovementCapabilitiesDef", "Path": "movement", "AddToDB": true },
+        { "Type": "Sprite", "Path": "portraits", "AddToDB": true },	
+        { "Type": "TurretChassisDef", "Path": "turretChassis", "AddToDB": true  },
+		{ "Type": "TurretDef", "Path": "turrets", "AddToDB": true },
+		{ "Type": "UpgradeDef", "Path": "upgrades", "AddToDB": true },
+		{ "Type": "VehicleDef", "Path": "vehicle", "AddToDB": true },
+		{ "Type": "VehicleChassisDef", "Path": "vehicleChassis", "AddToDB": true },
+		{ "Type": "WeaponDef", "Path": "weapon", "AddToDB": true }
+    ]
+}
