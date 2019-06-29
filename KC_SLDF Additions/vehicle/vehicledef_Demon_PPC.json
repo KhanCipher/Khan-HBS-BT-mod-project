@@ -1,0 +1,75 @@
+{
+   "Version" : 1,
+   "Description" : {
+      "Id" : "vehicledef_Demon_PPC",
+      "Name" : "Demon (PPC)",
+      "Details" : "",
+      "Icon" : "",
+      "Cost" : 993,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "ChassisID" : "vehiclechassisdef_Demon_PPC",
+   "VehicleTags": {
+      "items": [
+         "unit_vehicle",
+         "unit_medium",
+         "unit_wheels",
+		 "unit_release"
+      ],
+      "tagSetSourceFile": ""
+   },
+   "Locations" : [
+		{
+			"Location" : "Front",
+			"CurrentArmor" : 240,
+			"CurrentInternalStructure" : 30,
+			"AssignedArmor" : 240,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Left",
+			"CurrentArmor" : 140,
+			"CurrentInternalStructure" : 30,
+			"AssignedArmor" : 140,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Right",
+			"CurrentArmor" : 140,
+			"CurrentInternalStructure" : 30,
+			"AssignedArmor" : 140,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Rear",
+			"CurrentArmor" : 95,
+			"CurrentInternalStructure" : 30,
+			"AssignedArmor" : 95,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Turret",
+			"CurrentArmor" : 145,
+			"CurrentInternalStructure" : 30,
+			"AssignedArmor" : 145,
+			"DamageLevel" : "Functional"
+		}
+   ],
+   "inventory" : [
+      {
+         "ComponentDefID" : "Weapon_PPC_PPC_0-STOCK",
+         "ComponentDefType" : "Weapon",
+         "MountedLocation" : "Turret",
+		 "HardpointSlot" : 0,
+		 "DamageLevel" : "Functional"
+      },
+      {
+         "ComponentDefID" : "Weapon_PPC_PPC_0-STOCK",
+         "ComponentDefType" : "Weapon",
+         "MountedLocation" : "Turret",
+		 "HardpointSlot" : 0,
+		 "DamageLevel" : "Functional"
+      }
+   ]
+}
