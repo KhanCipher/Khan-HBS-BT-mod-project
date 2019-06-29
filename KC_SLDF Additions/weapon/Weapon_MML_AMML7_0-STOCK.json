@@ -1,0 +1,65 @@
+{
+    "Category" : "Missile",
+    "Type" : "LRM",
+    "WeaponSubType" : "LRM15",
+    "MinRange" : 120,
+    "MaxRange" : 630,
+    "RangeSplit" : [
+        180,
+        270,
+        630
+    ],
+    "AmmoCategory" : "MML",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 12,
+    "Damage" : 10,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : -1,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : true,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 7,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 1,
+    "Instability" : 5,
+    "WeaponEffectID" : "WeaponEffect-Weapon_SRM6",
+    "Description" : {
+        "Cost" : 310000,
+        "Rarity" : 2,
+        "Purchasable" : true,
+        "Manufacturer" : "Holly",
+        "Model" : "Multi-Missile Launcher",
+        "UIName" : "MML7+ArtemisIV",
+        "Id" : "Weapon_MML_AMML7_0-STOCK",
+        "Name" : "MML7+ArtemisIV",
+        "Details" : "The Multi-Missile Launcher is capable of firing both short-range missiles and long-range missiles, including any special munitions designed for them, as well as the Artemis IV fire control system. The MML-7 fires seven missiles at a time, be they short-range or long-range. <b><color=#16adff>Uses SRM Ammo</color></b>",
+        "Icon" : "uixSvgIcon_weapon_Missile"
+    },
+    "BonusValueA" : "+ 1 Acc.",
+    "BonusValueB" : "+ 1 Stab.Dmg.",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "srm6",
+    "BattleValue" : 0,
+    "InventorySize" : 4,
+    "Tonnage" : 5.5,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "range_standard",
+            "WR-variance_by_distance-40"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

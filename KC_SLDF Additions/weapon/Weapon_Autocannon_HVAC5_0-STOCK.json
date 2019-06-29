@@ -1,0 +1,64 @@
+{
+    "Category" : "Ballistic",
+    "Type" : "Autocannon",
+    "WeaponSubType" : "AC5",
+    "MinRange" : 0,
+    "MaxRange" : 840,
+    "RangeSplit" : [
+        480,
+        480,
+        840
+    ],
+    "AmmoCategory" : "HVAC5",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 12,
+    "Damage" : 45,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : -4,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 2,
+    "ShotsWhenFired" : 1,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 2,
+    "Instability" : 60,
+    "WeaponEffectID" : "WeaponEffect-Weapon_AC5",
+    "Description" : {
+        "Cost" : 320000,
+        "Rarity" : 7,
+        "Purchasable" : true,
+        "Manufacturer" : "Kallon",
+        "Model" : "Tactical Hyper Velocity Autocannon",
+        "UIName" : "HVAC/5",
+        "Id" : "Weapon_Autocannon_HVAC5_0-STOCK",
+        "Name" : "HVAC/5",
+        "Details" : "The Hypervelocity Autocannon (HVAC) family of weapons is based on the Autocannon. While they have the same damage classes, they're capable of firing much further. However, in order to obtain the increased ballistic range, the hypervelocity ammo is larger and uses a unique type of propellant",
+        "Icon" : "uixSvgIcon_weapon_Ballistic"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "AC5",
+    "BattleValue" : 0,
+    "InventorySize" : 3,
+    "Tonnage" : 12,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "range_extreme"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

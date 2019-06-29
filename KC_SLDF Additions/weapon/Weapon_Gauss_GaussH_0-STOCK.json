@@ -1,0 +1,66 @@
+{
+    "Category" : "Ballistic",
+    "Type" : "Gauss",
+    "WeaponSubType" : "Gauss",
+    "MinRange" : 90,
+    "MaxRange" : 600,
+    "RangeSplit" : [
+        180,
+        180,
+        390
+    ],
+    "AmmoCategory" : "HGAUSS",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 10,
+    "Damage" : 125,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : -1,
+    "CriticalChanceMultiplier" : 1.25,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 4,
+    "ShotsWhenFired" : 1,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 4,
+    "Instability" : 80,
+    "WeaponEffectID" : "WeaponEffect-Weapon_GaussRifle",
+    "Description" : {
+        "Cost" : 1000000,
+        "Rarity" : 3,
+        "Purchasable" : true,
+        "Manufacturer" : "SCI",
+        "Model" : "Magnetic Cannon",
+        "UIName" : "Heavy Gauss Rifle",
+        "Id" : "Weapon_Gauss_GaussH_0-STOCK",
+        "Name" : "Heavy Gauss Rifle",
+        "Details" : "The Heavy Gauss Rifle is a new, deadly innovation by Lyran Alliance scientists. Applying their 'bigger is better' philosophy to Gauss technology, the Heavy Gauss Rifle is one of the heaviest battlefield weapons in existence, and has a correspondingly high damage potential. Indeed, the recoil from the weapon is so great that the rifle cannot be mounted in a vehicle's turret or 'Mech's arms, as firing the rifle would essentially rip it off.",
+        "Icon" : "uixSvgIcon_weapon_Ballistic"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "Gauss",
+    "BattleValue" : 0,
+    "InventorySize" : 6,
+    "Tonnage" : 18,
+    "AllowedLocations" : "LeftTorso,RightTorso",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "component_type_lostech",
+            "range_standard",
+            "WR-variance_by_distance-40"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

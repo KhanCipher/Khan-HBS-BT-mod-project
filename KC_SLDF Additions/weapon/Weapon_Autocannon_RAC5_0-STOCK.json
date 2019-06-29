@@ -1,0 +1,67 @@
+{
+    "Category" : "Ballistic",
+    "Type" : "Autocannon",
+    "WeaponSubType" : "AC5",
+    "MinRange" : 0,
+    "MaxRange" : 450,
+    "RangeSplit" : [
+        300,
+        300,
+        450
+    ],
+    "AmmoCategory" : "RAC5",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 30,
+    "Damage" : 30,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : 0,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 2,
+    "ShotsWhenFired" : 6,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 2,
+    "Instability" : 15,
+    "WeaponEffectID" : "WeaponEffect-Weapon_AC5",
+    "Description" : {
+        "Cost" : 550000,
+        "Rarity" : 2,
+        "Purchasable" : true,
+        "Manufacturer" : "Mydron",
+        "Model" : "Medium Rotary Autocannon",
+        "UIName" : "Rotary AC/5",
+        "Id" : "Weapon_Autocannon_RAC5_0-STOCK",
+        "Name" : "RAC/5",
+        "Details" : "The Rotary Autocannon is a recent development by the Federated Commonwealth. Able to fire three times the shots that an Ultra ever can. However RACs are more prone to jamming, they chew through ammo faster than anything else, and have much shorter ranges than their normal counterparts.",
+        "Icon" : "uixSvgIcon_weapon_Ballistic"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "AC5",
+    "BattleValue" : 0,
+    "InventorySize" : 3,
+    "Tonnage" : 10,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "component_type_lostech",
+            "range_long",
+			"wr-jammable_weapon",
+            "wr-jam_chance_multiplier-25"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

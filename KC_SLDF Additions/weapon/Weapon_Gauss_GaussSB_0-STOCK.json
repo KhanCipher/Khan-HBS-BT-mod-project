@@ -1,0 +1,68 @@
+{
+    "Category" : "Ballistic",
+    "Type" : "Gauss",
+    "WeaponSubType" : "Gauss",
+    "MinRange" : 60,
+    "MaxRange" : 660,
+    "RangeSplit" : [
+        450,
+        450,
+        660
+    ],
+    "AmmoCategory" : "SBGAUSS",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 5,
+    "Damage" : 80,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : -2,
+    "CriticalChanceMultiplier" : 1.50,
+	"ImprovedBallistic": true,
+	"BallisticDamagePerPallet": true,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 1,
+    "ProjectilesPerShot" : 15,
+    "AttackRecoil" : 4,
+    "Instability" : 40,
+    "WeaponEffectID" : "WeaponEffect-Weapon_GaussRifle",
+    "Description" : {
+        "Cost" : 700000,
+        "Rarity" : 7,
+        "Purchasable" : true,
+        "Manufacturer" : "NAIS",
+        "Model" : "Magnetic Cannon",
+        "UIName" : "SB Gauss Rifle",
+        "Id" : "Weapon_Gauss_GaussSB_0-STOCK",
+        "Name" : "Silver Bullet Gauss Rifle",
+        "Details" : "The NAIS developed the Silver Bullet Gauss Rifle (or SB Gauss) in an attempt to bring the functionality of an LB-X Autocannon to the Gauss Rifle. Though the cluster-like ammunition made it easier to hit a target and was particularly effective in the anti-aircraft role, unlike the LB-X family, the Silver Bullet couldn't fire standard Gauss Rifle ammunition.",
+        "Icon" : "uixSvgIcon_weapon_Ballistic"
+    },
+    "BonusValueA" : "Dmg: 6x15",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "Gauss",
+    "BattleValue" : 0,
+    "InventorySize" : 5,
+    "Tonnage" : 15,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "component_type_lostech",
+            "range_extreme",
+			"wr-clustered_shots"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

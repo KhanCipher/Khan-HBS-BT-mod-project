@@ -1,0 +1,65 @@
+{
+    "Category" : "Ballistic",
+    "Type" : "Gauss",
+    "WeaponSubType" : "Gauss",
+    "MinRange" : 90,
+    "MaxRange" : 720,
+    "RangeSplit" : [
+        480,
+        480,
+        720
+    ],
+    "AmmoCategory" : "HGAUSS",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 5,
+    "Damage" : 135,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 2,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : -3,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 1,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 4,
+    "Instability" : 100,
+    "WeaponEffectID" : "WeaponEffect-Weapon_GaussRifle",
+    "Description" : {
+        "Cost" : 5000000,
+        "Rarity" : 10,
+        "Purchasable" : true,
+        "Manufacturer" : "Type-RGX",
+        "Model" : "Rail Gun",
+        "UIName" : "Rail Gun",
+        "Id" : "Weapon_Gauss_RailGun_0-STOCK",
+        "Name" : "Rail Gun",
+        "Details" : "A Star League era prototype attempting to improve the Gauss Rifle. The Rail Gun is just as heavy, and just as big as the Lyran's Heavy Gauss Rifle. But the Rail Gun can be placed in the arms unlike the Heavy Gauss Rifle. <b><color=#16adff>Uses Heavy Gauss Ammo</color></b>",
+        "Icon" : "uixSvgIcon_weapon_Ballistic"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "Gauss",
+    "BattleValue" : 0,
+    "InventorySize" : 8,
+    "Tonnage" : 18,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "component_type_lostech",
+            "range_extreme"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

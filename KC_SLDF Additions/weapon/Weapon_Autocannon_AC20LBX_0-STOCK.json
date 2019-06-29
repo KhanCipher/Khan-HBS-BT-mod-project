@@ -1,0 +1,67 @@
+{
+    "Category" : "Ballistic",
+    "Type" : "Autocannon",
+    "WeaponSubType" : "AC20",
+    "MinRange" : 0,
+    "MaxRange" : 360,
+    "RangeSplit" : [
+        240,
+        240,
+        360
+    ],
+    "AmmoCategory" : "LBX20",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 20,
+    "Damage" : 100,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : 0,
+    "CriticalChanceMultiplier" : 1.5,
+	"ImprovedBallistic": true,
+	"BallisticDamagePerPallet": true,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 2,
+    "ShotsWhenFired" : 1,
+    "ProjectilesPerShot" : 20,
+    "AttackRecoil" : 4,
+    "Instability" : 50,
+    "WeaponEffectID" : "WeaponEffect-Weapon_AC2",
+    "Description" : {
+        "Cost" : 600000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Defiance",
+        "Model" : "Shredder LBX Autocannon",
+        "UIName" : "LB 20-X AC",
+        "Id" : "Weapon_Autocannon_AC20LBX_0-STOCK",
+        "Name" : "LB 20-X AC",
+        "Details" : "The king of the battlefield in terms of raw damage, AC/20s hit harder than any other weapon. However, this comes at the expense of weight, range, and severely limited ammunition. Like all Autocannon weaponry, AC/20s suffer from recoil effects from continuous fire.",
+        "Icon" : "uixSvgIcon_weapon_Ballistic"
+    },
+    "BonusValueA" : "Dmg: 5x20",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "AC20",
+    "BattleValue" : 0,
+    "InventorySize" : 5,
+    "Tonnage" : 14,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "range_standard",
+			"wr-clustered_shots"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

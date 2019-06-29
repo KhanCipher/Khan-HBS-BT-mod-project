@@ -1,0 +1,64 @@
+{
+    "Category" : "Missile",
+    "Type" : "LRM",
+    "WeaponSubType" : "LRM15",
+    "MinRange" : 90,
+    "MaxRange" : 630,
+    "RangeSplit" : [
+        420,
+        420,
+        630
+    ],
+    "AmmoCategory" : "ENLRM",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 15,
+    "Damage" : 4,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : -1,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : true,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 15,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 1,
+    "Instability" : 5,
+    "WeaponEffectID" : "WeaponEffect-Weapon_LRM15",
+    "Description" : {
+        "Cost" : 650000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Delta",
+        "Model" : "Enhanced Long-Range Missile Launcher",
+        "UIName" : "Enhanced LRM15+ArtemisIV",
+        "Id" : "Weapon_LRM_AENLRM15_0-STOCK",
+        "Name" : "Enhanced LRM15+ArtemisIV",
+        "Details" : "Enhanced Long Range Missiles were developed by the Federated Commonwealth in response to the superior performance of Clan weaponry. These new LRMs use a more sophisticated arming mechanism to increase their viability at close range. The result has been a much smaller blind spot compared to traditional LRMs while still retaining the same long-range functionality.",
+        "Icon" : "uixSvgIcon_weapon_Missile"
+    },
+    "BonusValueA" : "+ 1 Acc.",
+    "BonusValueB" : "+ 1 Stab.Dmg.",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "lrm15",
+    "BattleValue" : 0,
+    "InventorySize" : 5,
+    "Tonnage" : 10,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "range_extreme"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

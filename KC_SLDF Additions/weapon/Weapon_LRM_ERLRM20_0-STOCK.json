@@ -1,0 +1,64 @@
+{
+    "Category" : "Missile",
+    "Type" : "LRM",
+    "WeaponSubType" : "LRM20",
+    "MinRange" : 300,
+    "MaxRange" : 1140,
+    "RangeSplit" : [
+        660,
+        660,
+        1140
+    ],
+    "AmmoCategory" : "ERLRM",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 30,
+    "Damage" : 6,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : 0,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : true,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 20,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 1,
+    "Instability" : 4,
+    "WeaponEffectID" : "WeaponEffect-Weapon_LRM20",
+    "Description" : {
+        "Cost" : 1160000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Jackson",
+        "Model" : "Extended Long-Range Missile Launcher",
+        "UIName" : "Extended LRM20",
+        "Id" : "Weapon_LRM_ERLRM20_0-STOCK",
+        "Name" : "Extended LRM20",
+        "Details" : "The Extended LRM (ELRM) system was designed by engineers in the Federated Commonwealth, and developed in 3054 to offset the incredible range advantage of most Clan weapons. The ELRM pairs a standard LRM to a booster system that gives the missile more fuel, and thus, more range. Offsetting the range advantage is the fact that the minimum range of the weapon is increased by over 50%, combined with a heavier, bulkier launcher.",
+        "Icon" : "uixSvgIcon_weapon_Missile"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "lrm20",
+    "BattleValue" : 0,
+    "InventorySize" : 6,
+    "Tonnage" : 18,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "range_extreme"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

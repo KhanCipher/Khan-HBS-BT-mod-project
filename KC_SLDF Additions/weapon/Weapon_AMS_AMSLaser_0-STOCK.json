@@ -1,0 +1,83 @@
+{
+    "Category" : "AntiPersonnel",
+    "Type" : "Laser",
+    "WeaponSubType" : "SmallLaserPulse",
+    "MinRange" : 0,
+    "MaxRange" : 90,
+    "RangeSplit" : [
+        90,
+        90,
+        90
+    ],
+    "AmmoCategory" : "NotSet",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 10,
+    "Damage" : 0,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : -1,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 0,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 0,
+	"IsAMS" : true,
+	"IsAAMS" : true,
+	"NotUseInMelee": true,
+    "Instability" : 0,
+    "WeaponEffectID" : "WeaponEffect-Weapon_LaserPulse_Small",
+    "Description" : {
+        "Cost" : 225000,
+        "Rarity" : 10,
+        "Purchasable" : true,
+        "Manufacturer" : "Blankenburg",
+        "Model" : "Laser Anti Missile System",
+        "UIName" : "Laser AMS",
+        "Id" : "Weapon_AMS_AMSLaser_0-STOCK",
+        "Name" : "Laser AMS",
+        "Details" : "LAMS",
+        "Icon" : "uixSvgIcon_weapon_Support"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "Laser",
+    "BattleValue" : 0,
+    "InventorySize" : 2,
+    "Tonnage" : 1.5,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+	"Modes":[
+		{
+			"Id":"On",
+			"UIName":"On",
+			"isBaseMode":true,
+			"ShotsWhenFired" : 10,
+			"AMSHitChance": 0.3
+		},
+		{
+			"Id":"Off",
+			"UIName":"Off",
+			"isBaseMode":false,
+			"ShotsWhenFired" : 0,
+			"AMSHitChance": 0.0
+		}
+	],
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "range_close"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

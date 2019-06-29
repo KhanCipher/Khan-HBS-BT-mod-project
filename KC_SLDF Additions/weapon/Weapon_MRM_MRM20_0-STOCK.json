@@ -1,0 +1,64 @@
+{
+    "Category" : "Missile",
+    "Type" : "LRM",
+    "WeaponSubType" : "LRM5",
+    "MinRange" : 0,
+    "MaxRange" : 450,
+    "RangeSplit" : [
+        240,
+        240,
+        450
+    ],
+    "AmmoCategory" : "MRM",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 14,
+    "Damage" : 5,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : 1,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 20,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 1,
+    "Instability" : 2,
+    "WeaponEffectID" : "WeaponEffect-Weapon_LRM10",
+    "Description" : {
+        "Cost" : 125000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Luthien Armor Works",
+        "Model" : "Medium-Range Missile Launcher",
+        "UIName" : "MRM20",
+        "Id" : "Weapon_MRM_MRM20_0-STOCK",
+        "Name" : "MRM20",
+        "Details" : "MRMs are a Draconis Combine invention intended to replace Dead Fire LRMs. MRMs are able to fire twice as many missiles, still have the same restrictive range, and are as heavy as the Dead Fire LRM Launchers. MRMs can't proform indirect fire either.",
+        "Icon" : "uixSvgIcon_weapon_Missile"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "lrm20",
+    "BattleValue" : 0,
+    "InventorySize" : 3,
+    "Tonnage" : 7,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "range_extreme"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

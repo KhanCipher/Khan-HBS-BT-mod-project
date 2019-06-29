@@ -1,0 +1,67 @@
+{
+    "Category" : "Ballistic",
+    "Type" : "Autocannon",
+    "WeaponSubType" : "AC5",
+    "MinRange" : 90,
+    "MaxRange" : 540,
+    "RangeSplit" : [
+        360,
+        360,
+        540
+    ],
+    "AmmoCategory" : "UAC5",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 15,
+    "Damage" : 40,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : 0,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 3,
+    "ShotsWhenFired" : 2,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 2,
+    "Instability" : 15,
+    "WeaponEffectID" : "WeaponEffect-Weapon_AC5",
+    "Description" : {
+        "Cost" : 400000,
+        "Rarity" : 2,
+        "Purchasable" : true,
+        "Manufacturer" : "GM",
+        "Model" : "Tactical Ultra Autocannon",
+        "UIName" : "Ultra AC/5",
+        "Id" : "Weapon_Autocannon_UAC5_0-STOCK",
+        "Name" : "UAC/5",
+        "Details" : "A flexible weapon, UAC/5s strike a balance between long range, power, and performance. The Ultra Autocannon fires two shot per trigger pull, but in exchange it weighs more than the standard Autocannon. Like all Autocannon weaponry, UAC/5s suffer from recoil effects from continuous fire.",
+        "Icon" : "uixSvgIcon_weapon_Ballistic"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "AC5",
+    "BattleValue" : 0,
+    "InventorySize" : 3,
+    "Tonnage" : 9,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "component_type_lostech",
+            "range_very-long",
+			"wr-jammable_weapon",
+            "wr-jam_chance_multiplier-2"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

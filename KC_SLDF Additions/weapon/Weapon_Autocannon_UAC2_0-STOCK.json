@@ -1,0 +1,67 @@
+{
+    "Category" : "Ballistic",
+    "Type" : "Autocannon",
+    "WeaponSubType" : "AC2",
+    "MinRange" : 120,
+    "MaxRange" : 720,
+    "RangeSplit" : [
+        480,
+        480,
+        720
+    ],
+    "AmmoCategory" : "UAC2",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 10,
+    "Damage" : 25,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : 0,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 2,
+    "ShotsWhenFired" : 2,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 2,
+    "Instability" : 10,
+    "WeaponEffectID" : "WeaponEffect-Weapon_AC2",
+    "Description" : {
+        "Cost" : 240000,
+        "Rarity" : 2,
+        "Purchasable" : true,
+        "Manufacturer" : "Mydron",
+        "Model" : "Sniper Ultra Autocannon",
+        "UIName" : "Ultra AC/2",
+        "Id" : "Weapon_Autocannon_UAC2_0-STOCK",
+        "Name" : "UAC/2",
+        "Details" : "A flexible weapon, UAC/2s strike a balance between long range, power, and performance. The Ultra Autocannon fires two shot per trigger pull, but in exchange it weighs more than the standard Autocannon. Like all Autocannon weaponry, UAC/5s suffer from recoil effects from continuous fire.",
+        "Icon" : "uixSvgIcon_weapon_Ballistic"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "AC5",
+    "BattleValue" : 0,
+    "InventorySize" : 2,
+    "Tonnage" : 7,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "component_type_lostech",
+            "range_extreme",
+			"wr-jammable_weapon",
+            "wr-jam_chance_multiplier-2"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

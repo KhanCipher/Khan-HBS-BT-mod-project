@@ -1,0 +1,66 @@
+{
+    "Category" : "Missile",
+    "Type" : "LRM",
+    "WeaponSubType" : "LRM20",
+    "MinRange" : 270,
+    "MaxRange" : 900,
+    "RangeSplit" : [
+        630,
+        630,
+        900
+    ],
+    "AmmoCategory" : "ARROWIV",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 30,
+    "Damage" : 40,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : 4,
+    "CriticalChanceMultiplier" : 1.5,
+    "AOECapable" : true,
+    "IndirectFireCapable" : true,
+    "AlwaysIndirectVisuals" : true,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 4,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 1,
+    "Instability" : 20,
+    "WeaponEffectID" : "WeaponEffect-Weapon_LRM5",
+    "Description" : {
+        "Cost" : 900000,
+        "Rarity" : 3,
+        "Purchasable" : true,
+        "Manufacturer" : "Grumman",
+        "Model" : "Artillery Missile Launcher",
+        "UIName" : "Arrow IV",
+        "Id" : "Weapon_Artillery_ArrowIV_0-STOCK",
+        "Name" : "Arrow IV",
+        "Details" : "A missile based artillery, Arrow IVs are efficient at dealing damage farther than any LRM launcher can, but also have much larger issues at shorter ranges. Like all artillery weapons, Arrow IVs are capable of indirect fire over obstacles and terrain with the benefit of a spotter unit.",
+        "Icon" : "uixSvgIcon_weapon_Missile"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "srm4",
+    "BattleValue" : 0,
+    "InventorySize" : 8,
+    "Tonnage" : 15,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "component_type_lostech",
+            "range_extreme"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}
