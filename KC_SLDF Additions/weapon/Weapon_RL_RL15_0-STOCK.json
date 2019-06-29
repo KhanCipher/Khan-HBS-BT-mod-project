@@ -1,0 +1,64 @@
+{
+    "Category" : "Missile",
+    "Type" : "LRM",
+    "WeaponSubType" : "SRM2",
+    "MinRange" : 0,
+    "MaxRange" : 450,
+    "RangeSplit" : [
+        270,
+        270,
+        450
+    ],
+    "AmmoCategory" : "RL",
+    "StartingAmmoCapacity" : 15,
+    "HeatGenerated" : 12,
+    "Damage" : 5,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : 0,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 15,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 1,
+    "Instability" : 3,
+    "WeaponEffectID" : "WeaponEffect-Weapon_LRM15",
+    "Description" : {
+        "Cost" : 30000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Irian",
+        "Model" : "Rocket Launcher",
+        "UIName" : "Rocket Launcher 15",
+        "Id" : "Weapon_RL_RL15_0-STOCK",
+        "Name" : "RL15",
+        "Details" : "Rocket Launchers are cheap, unguided, one-shot missile launchers. Developed by the Marian Hegemony, they often replace more sophisticated equipment that the Periphery nation cannot afford or is unable to repair. Since their introduction, Rocket Launchers have proliferated across the Periphery.",
+        "Icon" : "uixSvgIcon_weapon_Missile"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "lrm15",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 1,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "range_extreme"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

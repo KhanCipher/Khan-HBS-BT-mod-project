@@ -1,0 +1,64 @@
+{
+    "Category" : "Missile",
+    "Type" : "LRM",
+    "WeaponSubType" : "LRM15",
+    "MinRange" : 150,
+    "MaxRange" : 540,
+    "RangeSplit" : [
+        360,
+        360,
+        540
+    ],
+    "AmmoCategory" : "TBOLT15",
+    "StartingAmmoCapacity" : 0,
+    "HeatGenerated" : 21,
+    "Damage" : 75,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "AccuracyModifier" : 0,
+    "CriticalChanceMultiplier" : 1,
+    "AOECapable" : false,
+    "IndirectFireCapable" : true,
+    "RefireModifier" : 0,
+    "ShotsWhenFired" : 1,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 1,
+    "Instability" : 30,
+    "WeaponEffectID" : "WeaponEffect-Weapon_SRM2",
+    "Description" : {
+        "Cost" : 650000,
+        "Rarity" : 0,
+        "Purchasable" : true,
+        "Manufacturer" : "Solaris Arms",
+        "Model" : "Thunderbolt Missile Launcher",
+        "UIName" : "Thunderbolt 15",
+        "Id" : "Weapon_TBolt_TBolt15_0-STOCK",
+        "Name" : "T-Bolt 15",
+        "Details" : "First developed by the Federated Commonwealth in the mid-3050s for the Solaris arenas, the Thunderbolt launcher is an offshoot of standard LRM technology. Instead of firing a group of five missiles, the Thunderbolt 15 launcher fires a single missile that inflicts as much damage as an Gauss Rifle. This increased damage is made up for by the slightly reduced range and increases to the weapon's heat and weight.",
+        "Icon" : "uixSvgIcon_weapon_Missile"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "srm2",
+    "BattleValue" : 0,
+    "InventorySize" : 3,
+    "Tonnage" : 11,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "range_very-long"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}
