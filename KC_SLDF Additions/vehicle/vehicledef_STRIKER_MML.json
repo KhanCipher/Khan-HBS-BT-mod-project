@@ -1,0 +1,96 @@
+{
+   "Version" : 1,
+   "Description" : {
+      "Id" : "vehicledef_STRIKER_MML",
+      "Name" : "Striker (MML)",
+      "Details" : "",
+      "Icon" : "",
+      "Cost" : 564,
+      "Rarity" : 5,
+      "Purchasable" : false
+   },
+   "ChassisID" : "vehiclechassisdef_STRIKER_MML",
+   "VehicleTags": {
+      "items": [
+         "unit_vehicle",
+         "unit_medium",
+         "unit_wheels",
+		 "unit_release"
+      ],
+      "tagSetSourceFile": ""
+   },
+   "Locations" : [
+		{
+			"Location" : "Front",
+			"CurrentArmor" : 120,
+			"CurrentInternalStructure" : 10,
+			"AssignedArmor" : 120,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Left",
+			"CurrentArmor" : 105,
+			"CurrentInternalStructure" : 10,
+			"AssignedArmor" : 105,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Right",
+			"CurrentArmor" : 105,
+			"CurrentInternalStructure" : 10,
+			"AssignedArmor" : 105,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Rear",
+			"CurrentArmor" : 95,
+			"CurrentInternalStructure" : 10,
+			"AssignedArmor" : 95,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Turret",
+			"CurrentArmor" : 120,
+			"CurrentInternalStructure" : 10,
+			"AssignedArmor" : 120,
+			"DamageLevel" : "Functional"
+		}
+   ],
+   "inventory" : [
+      {
+         "ComponentDefID" : "Weapon_MML_MML9_0-STOCK",
+         "ComponentDefType" : "Weapon",
+         "MountedLocation" : "Turret",
+		 "HardpointSlot" : 0,
+		 "DamageLevel" : "Functional"
+      },
+      {
+         "ComponentDefID" : "Weapon_MML_MML9_0-STOCK",
+         "ComponentDefType" : "Weapon",
+         "MountedLocation" : "Turret",
+		 "HardpointSlot" : 1,
+		 "DamageLevel" : "Functional"
+      },
+      {
+         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_MML",
+         "ComponentDefType" : "AmmunitionBox",
+         "MountedLocation" : "Front",
+		 "HardpointSlot" : -1,
+		 "DamageLevel" : "Functional"
+      },
+      {
+         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_MML",
+         "ComponentDefType" : "AmmunitionBox",
+         "MountedLocation" : "Front",
+		 "HardpointSlot" : -1,
+		 "DamageLevel" : "Functional"
+      },
+      {
+         "ComponentDefID" : "Gear_EW_GECM",
+         "ComponentDefType" : "Upgrade",
+         "MountedLocation" : "Front",
+		 "HardpointSlot" : -1,
+		 "DamageLevel" : "Functional"
+      }
+   ]
+}

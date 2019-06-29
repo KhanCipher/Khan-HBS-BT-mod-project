@@ -1,0 +1,124 @@
+{
+   "Version" : 1,
+   "Description" : {
+      "Id" : "vehicledef_Patton_UAC",
+      "Name" : "Patton MBT (UAC)",
+      "Details" : "",
+      "Icon" : "",
+      "Cost" : 993,
+      "Rarity" : 0,
+      "Purchasable" : false
+   },
+   "ChassisID" : "vehiclechassisdef_Patton_UAC",
+   "VehicleTags": {
+      "items": [
+         "unit_vehicle",
+         "unit_heavy",
+         "unit_tracks",
+		 "unit_release"
+      ],
+      "tagSetSourceFile": ""
+   },
+   "Locations" : [
+		{
+			"Location" : "Front",
+			"CurrentArmor" : 255,
+			"CurrentInternalStructure" : 35,
+			"AssignedArmor" : 255,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Left",
+			"CurrentArmor" : 230,
+			"CurrentInternalStructure" : 35,
+			"AssignedArmor" : 230,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Right",
+			"CurrentArmor" : 230,
+			"CurrentInternalStructure" : 35,
+			"AssignedArmor" : 230,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Rear",
+			"CurrentArmor" : 190,
+			"CurrentInternalStructure" : 35,
+			"AssignedArmor" : 190,
+			"DamageLevel" : "Functional"
+		},
+		{
+			"Location" : "Turret",
+			"CurrentArmor" : 255,
+			"CurrentInternalStructure" : 35,
+			"AssignedArmor" : 255,
+			"DamageLevel" : "Functional"
+		}
+   ],
+   "inventory" : [
+      {
+         "ComponentDefID" : "Weapon_Autocannon_UAC10_0-STOCK",
+         "ComponentDefType" : "Weapon",
+         "MountedLocation" : "Turret",
+		 "HardpointSlot" : 0,
+		 "DamageLevel" : "Functional"
+      },
+      {
+         "ComponentDefID" : "Weapon_Laser_MediumLaser_0-STOCK",
+         "ComponentDefType" : "Weapon",
+         "MountedLocation" : "Turret",
+		 "HardpointSlot" : 1,
+		 "DamageLevel" : "Functional"
+      },
+      {
+         "ComponentDefID" : "Weapon_Laser_MediumLaser_0-STOCK",
+         "ComponentDefType" : "Weapon",
+         "MountedLocation" : "Turret",
+		 "HardpointSlot" : 1,
+		 "DamageLevel" : "Functional"
+      },
+	  {
+         "ComponentDefID" : "Weapon_MachineGun_MachineGun_0-STOCK",
+         "ComponentDefType" : "Weapon",
+         "MountedLocation" : "Front",
+		 "HardpointSlot" : 0,
+		 "DamageLevel" : "Functional"
+      },
+	  {
+         "ComponentDefID" : "Weapon_MachineGun_MachineGun_0-STOCK",
+         "ComponentDefType" : "Weapon",
+         "MountedLocation" : "Front",
+		 "HardpointSlot" : 0,
+		 "DamageLevel" : "Functional"
+      },
+	  {
+         "ComponentDefID" : "Weapon_MachineGun_MachineGun_0-STOCK",
+         "ComponentDefType" : "Weapon",
+         "MountedLocation" : "Front",
+		 "HardpointSlot" : 0,
+		 "DamageLevel" : "Functional"
+      },
+      {
+         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_UAC10",
+         "ComponentDefType" : "AmmunitionBox",
+         "MountedLocation" : "Front",
+		 "HardpointSlot" : -1,
+		 "DamageLevel" : "Functional"
+      },
+      {
+         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_UAC10",
+         "ComponentDefType" : "AmmunitionBox",
+         "MountedLocation" : "Front",
+		 "HardpointSlot" : -1,
+		 "DamageLevel" : "Functional"
+      },
+      {
+         "ComponentDefID" : "Ammo_AmmunitionBox_Generic_MG_Half",
+         "ComponentDefType" : "AmmunitionBox",
+         "MountedLocation" : "Front",
+		 "HardpointSlot" : -1,
+		 "DamageLevel" : "Functional"
+      }
+   ]
+}
