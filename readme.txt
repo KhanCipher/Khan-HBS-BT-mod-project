@@ -1,7 +1,8 @@
 This is my current HBS BT mod project. What it does is mainly attempt to make the game harder while remaining balanced.
 
-This mod require the Community Asset Bundle (which also needs BT performance fix until the assetbundles get redone): https://www.nexusmods.com/battletech/mods/393
-
+This mod requires the Community Asset Bundle (which also needs BT performance fix until the assetbundles get redone) 
+Community Asset Bundle: https://www.nexusmods.com/battletech/mods/393
+BT Performance Fix: https://github.com/m22spencer/BattletechPerformanceFix/releases
 
 Everything done by me:
 
