@@ -1,0 +1,25 @@
+{
+    "Name": "KC_Weapon Rebalance",
+    "Enabled": true,
+
+	"Version": "0.1",
+	"PackagedOn": "2018-06-21T06:45:00Z",
+    "Description": "Changesalotofweaponstats,aswellasaddingnewthings",
+    "Author": "KhanCipher",
+	
+	"Manifest": [
+	    { "Type": "AbilityDef", "Path": "abilities", "AddToDB": false },
+		{ "Type": "AmmunitionBoxDef", "Path": "ammunitionBox", "AddToDB": false },
+		{ "Type": "ChassisDef", "Path": "chassis", "AddToDB": false },
+		{ "Type": "CombatGameConstants", "Path": "constants", "AddToDB": false },
+		{ "Type": "ContractOverride", "Path": "contracts", "AddToDB": false },
+		{ "Type": "HeatSinkDef", "Path": "heatsinks", "AddToDB": false },
+		{ "Type": "ItemCollectionDef", "Path": "itemCollections", "AddToDB": false },
+		{ "Type": "MechDef", "Path": "mech", "AddToDB": false },
+		{ "Type": "SimGameConstants", "Path": "simGameConstants", "AddToDB": false },
+		{ "Type": "UpgradeDef", "Path": "upgrades", "AddToDB": false },
+		{ "Type": "VehicleDef", "Path": "vehicle", "AddToDB": false },
+		{ "Type": "VehicleChassisDef", "Path": "vehicleChassis", "AddToDB": false },
+		{ "Type": "WeaponDef", "Path": "weapon", "AddToDB": false }
+    ]
+}

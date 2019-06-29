@@ -1,0 +1,94 @@
+{
+	"Description" : {
+		"Id" : "AbilityDefGu5",
+		"Name" : "BULWARK",
+		"Details" : "PASSIVE: COVER and GUARDED states both provide 40% damage reduction rather than 20% damage reduction. COVER and GUARDED together provide 60% damage reduction.",
+		"Icon" : "uixSvgIcon_ability_fortify"
+	},
+    "DisplayParams" : "ShowInMWTRay",
+	"ReqSkill" : "Guts",
+	"ReqSkillLevel" : 5,
+	"ActivationTime" : "Passive",
+	"EffectData" :
+	[
+		{
+			"durationData" :
+			{
+				"duration" : -1
+			},
+			"targetingData" :
+			{
+				"effectTriggerType" : "OnActivation",
+				"effectTargetType" : "Creator"
+			},
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "AbilityDefGu5",
+				"Name" : "BULWARK",
+				"Details" : "PASSIVE: COVER and GUARDED states both provide 40% damage reduction rather than 20% damage reduction. COVER and GUARDED together provide 60% damage reduction.",
+				"Icon" : "uixSvgIcon_ability_fortify"
+			},
+			"statisticData" :
+			{
+				"statName" : "GuardedIsUpgraded",
+				"operation" : "Set",
+				"modValue" : "true",
+				"modType" : "System.Boolean"
+			},
+			"nature" : "Buff"
+		},
+		{
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "BulwarkImprovedMeleeHit",
+                "Name" : "MELEE HIT CHANCE IMPROVED",
+                "Details" : "Melee attacks attempted have their hit improved by [AMT].",
+                "Icon" : "uixSvgIcon_equipment_Gyro"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "AccuracyModifier",
+                "operation" : "Float_Add",
+                "modValue" : "-2.0",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "Melee"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        }
+	],
+	"IsPrimaryAbility" : true
+}

@@ -1,0 +1,99 @@
+{
+	"Description" : {
+		"Id" : "AbilityDefP5",
+		"Name" : "EVASIVE MOVEMENT",
+		"Details" : "PASSIVE: This unit generates an extra EVASIVE charge from movement actions (up to its maximum).",
+		"Icon" : "uixSvgIcon_action_evasivemove"
+	},
+    "DisplayParams" : "ShowInMWTRay",
+	"ReqSkill" : "Piloting",
+	"ReqSkillLevel" : 5,
+	"ActivationTime" : "Passive",
+	"EffectData" :
+	[
+		{
+			"durationData" :
+			{
+				"duration" : -1
+			},
+			"targetingData" : 
+			{
+				"effectTriggerType" : "OnActivation",
+				"effectTargetType" : "Creator"
+			},
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "AbilityDefP5",
+				"Name" : "EVASIVE MOVE",
+				"Details" : "PASSIVE: This unit generates an extra EVASIVE charge from movement actions (up to its maximum).",
+				"Icon" : "uixSvgIcon_action_evasivemove"
+			},
+			"statisticData" : 
+			{
+				"statName" : "EvasivePipsGainedAdditional",
+				"operation" : "Int_Add",
+				"modValue" : "2",
+				"modType" : "System.Int32"
+			},
+			"nature" : "Buff"
+		},
+		{
+			"durationData" :
+			{
+				"duration" : -1
+			},
+			"targetingData" : 
+			{
+				"effectTriggerType" : "OnActivation",
+				"effectTargetType" : "Creator"
+			},
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "AbilityDefP5",
+				"Name" : "SURE FOOTING",
+				"Details" : "PASSIVE: This unit gains ENTRENCHED from normal movement actions.",
+				"Icon" : "uixSvgIcon_ability_sureFooting"
+			},
+			"statisticData" : 
+			{
+				"statName" : "GainEntrenchedOnNormalMove",
+				"operation" : "Set",
+				"modValue" : "true",
+				"modType" : "System.Boolean"
+			},
+			"nature" : "Buff"
+		},
+		{
+			"durationData" :
+			{
+				"duration" : -1
+			},
+			"targetingData" : 
+			{
+				"effectTriggerType" : "OnActivation",
+				"effectTargetType" : "Creator",
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : false
+			},
+			"effectType" : "StatisticEffect",
+			"Description" :
+			{
+				"Id" : "TraitDefSprintIncrease10",
+				"Name" : "Increased Sprint",
+				"Details" : "Gain 10% Sprint distance",
+				"Icon" : "uixSvgIcon_action_evasivemove"
+			},
+			"statisticData" : 
+			{
+				"statName" : "RunSpeed",
+				"operation" : "Float_Multiply",
+				"modValue" : "1.1",
+				"modType" : "System.Single"
+			},
+			"nature" : "Buff"
+		}
+	],
+	"IsPrimaryAbility" : true
+}
