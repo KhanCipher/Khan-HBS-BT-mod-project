@@ -37,7 +37,7 @@
         "UIName" : "MML7+ArtemisIV",
         "Id" : "Weapon_MML_AMML7_0-STOCK",
         "Name" : "MML7+ArtemisIV",
-        "Details" : "The Multi-Missile Launcher is capable of firing both short-range missiles and long-range missiles, including any special munitions designed for them, as well as the Artemis IV fire control system. The MML-7 fires seven missiles at a time, be they short-range or long-range. <b><color=#16adff>Uses SRM Ammo</color></b>",
+        "Details" : "The Multi-Missile Launcher is capable of firing both short-range missiles and long-range missiles, including any special munitions designed for them, as well as the Artemis IV fire control system. The MML-7 fires seven missiles at a time, be they short-range or long-range.",
         "Icon" : "uixSvgIcon_weapon_Missile"
     },
     "BonusValueA" : "+ 1 Acc.",

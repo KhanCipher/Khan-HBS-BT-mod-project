@@ -39,7 +39,7 @@
         "UIName" : "AMS",
         "Id" : "Weapon_AMS_AMS_0-STOCK",
         "Name" : "AMS",
-        "Details" : "AMS ballistics",
+        "Details" : "Introduced in 2617 by the Terran Hegemony, the anti-missile system is used to destroy missiles before they strike their target. This is accomplished by using a Machine Gun specially built and coupled to an advanced tracking system to shoot down missiles.",
         "Icon" : "uixSvgIcon_weapon_Support"
     },
     "BonusValueA" : "",
@@ -58,8 +58,8 @@
 			"Id":"On",
 			"UIName":"On",
 			"isBaseMode":true,
-			"ShotsWhenFired" : 10,
-			"AMSHitChance": 0.3
+			"ShotsWhenFired" : 20,
+			"AMSHitChance": 0.35
 		},
 		{
 			"Id":"Off",

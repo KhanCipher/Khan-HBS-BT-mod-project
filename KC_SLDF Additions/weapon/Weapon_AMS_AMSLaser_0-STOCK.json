@@ -40,7 +40,7 @@
         "UIName" : "Laser AMS",
         "Id" : "Weapon_AMS_AMSLaser_0-STOCK",
         "Name" : "Laser AMS",
-        "Details" : "LAMS",
+        "Details" : "The Laser AMS is exactly like the regular AMS system, except a Small Pulse Laser is used instead of a Machine Gun. Thus the Laser AMS doesn't require ammo, however it generates more heat.",
         "Icon" : "uixSvgIcon_weapon_Support"
     },
     "BonusValueA" : "",
@@ -59,8 +59,8 @@
 			"Id":"On",
 			"UIName":"On",
 			"isBaseMode":true,
-			"ShotsWhenFired" : 10,
-			"AMSHitChance": 0.3
+			"ShotsWhenFired" : 20,
+			"AMSHitChance": 0.35
 		},
 		{
 			"Id":"Off",
