@@ -25,7 +25,7 @@
         "Icon": "uixTxrIcon_kingcrab"
    },
    "inventory": [
-       {
+        {
             "MountedLocation": "Head",
             "ComponentDefID": "Gear_Cockpit_CommandConsole",
             "SimGameUID": null,
@@ -35,8 +35,8 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-       },
-       {
+        },
+        {
             "MountedLocation": "CenterTorso",
             "ComponentDefID": "Gear_Gyro_Rawlings_StabiliTrak-15",
             "SimGameUID": null,
@@ -46,10 +46,10 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-       },
-       {
+        },
+        {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Gauss_Gauss_1-Poland",
+            "ComponentDefID": "Weapon_Gauss_RailGun_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -57,10 +57,10 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-       },
-       {
+        },
+        {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Gauss_Gauss_1-Poland",
+            "ComponentDefID": "Weapon_Gauss_RailGun_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -68,10 +68,10 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-       },
-       {
+        },
+        {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_PPC_PPCER_2-Kinslaughter",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_2-BrightBloom",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -79,10 +79,10 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-       },
-       {
+        },
+        {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_PPC_PPCER_2-Kinslaughter",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_2-BrightBloom",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -90,10 +90,32 @@
             "DamageLevel": "Functional",
             "prefabName": null,
             "hasPrefabName": false
-       },
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_EW_AECM",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_EW_BHAP",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
         {
             "MountedLocation": "RightLeg",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_HGAUSS",
             "SimGameUID": null,
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
@@ -103,8 +125,8 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_HGAUSS",
             "SimGameUID": null,
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
@@ -115,7 +137,7 @@
         },
         {
             "MountedLocation": "LeftLeg",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_HGAUSS",
             "SimGameUID": null,
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
@@ -125,10 +147,10 @@
             "hasPrefabName": false
         },
         {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_HGAUSS",
             "SimGameUID": null,
-            "ComponentDefType": "HeatSink",
+            "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",

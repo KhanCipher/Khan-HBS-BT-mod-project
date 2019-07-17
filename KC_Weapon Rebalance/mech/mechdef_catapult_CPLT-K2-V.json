@@ -131,7 +131,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_PPC_PPC_3-Kinslaughter",
+            "ComponentDefID": "Weapon_PPC_PPCER_3-Kinslaughter",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -142,7 +142,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_Laser_MediumLaserER_1-SCI",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_2-BrightBloom",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -153,7 +153,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_Laser_SmallLaserER_1-SCI",
+            "ComponentDefID": "Weapon_Laser_SmallLaserER_2-BlazeFire",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -164,7 +164,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_Laser_SmallLaserER_1-SCI",
+            "ComponentDefID": "Weapon_Laser_SmallLaserER_2-BlazeFire",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -175,7 +175,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Laser_MediumLaserER_1-SCI",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_2-BrightBloom",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -186,7 +186,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Laser_SmallLaserER_1-SCI",
+            "ComponentDefID": "Weapon_Laser_SmallLaserER_2-BlazeFire",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -197,7 +197,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_Laser_SmallLaserER_1-SCI",
+            "ComponentDefID": "Weapon_Laser_SmallLaserER_2-BlazeFire",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -208,7 +208,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_PPC_PPC_3-Kinslaughter",
+            "ComponentDefID": "Weapon_PPC_PPCER_3-Kinslaughter",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
