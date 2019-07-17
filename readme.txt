@@ -4,6 +4,8 @@ This mod requires the Community Asset Bundle (which also needs BT performance fi
 Community Asset Bundle: https://www.nexusmods.com/battletech/mods/393
 BT Performance Fix: https://github.com/m22spencer/BattletechPerformanceFix/releases
 
+My notes on all my changes (it is of varying degrees of truth, due to neglecting to update it): https://docs.google.com/document/d/1Opy3nxGoNRKgZXpHGaTWGGk4KBSiL4Ot5lDEs4cPvxU/edit
+
 Everything done by me:
 
 - Weapon changes
@@ -26,4 +28,3 @@ Everything that's not done by me.
 - Weapon Realizer: made by janxious 
 - Attack Improvement Mod: made by Sheepy
 - And anyone else i've probably forgotten about.
-
