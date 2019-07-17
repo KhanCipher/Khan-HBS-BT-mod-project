@@ -30,9 +30,9 @@
     "WeaponEffectID" : "WeaponEffect-Weapon_GaussRifle",
     "Description" : {
         "Cost" : 1000000,
-        "Rarity" : 3,
+        "Rarity" : 5,
         "Purchasable" : true,
-        "Manufacturer" : "SCI",
+        "Manufacturer" : "Defiance",
         "Model" : "Magnetic Cannon",
         "UIName" : "Heavy Gauss Rifle",
         "Id" : "Weapon_Gauss_GaussH_0-STOCK",

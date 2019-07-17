@@ -30,9 +30,9 @@
     "WeaponEffectID" : "WeaponEffect-Weapon_GaussRifle",
     "Description" : {
         "Cost" : 550000,
-        "Rarity" : 3,
+        "Rarity" : 5,
         "Purchasable" : true,
-        "Manufacturer" : "SCI",
+        "Manufacturer" : "Imperator",
         "Model" : "Magnetic Cannon",
         "UIName" : "Light Gauss Rifle",
         "Id" : "Weapon_Gauss_GaussL_0-STOCK",

@@ -11,7 +11,7 @@
     ],
     "AmmoCategory" : "RAC5",
     "StartingAmmoCapacity" : 0,
-    "HeatGenerated" : 40,
+    "HeatGenerated" : 30,
     "Damage" : 30,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
@@ -29,18 +29,18 @@
     "Instability" : 15,
     "WeaponEffectID" : "WeaponEffect-Weapon_AC5",
     "Description" : {
-        "Cost" : 550000,
+        "Cost" : 750000,
         "Rarity" : 2,
         "Purchasable" : true,
         "Manufacturer" : "Mydron",
         "Model" : "Medium Rotary Autocannon",
-        "UIName" : "Rotary AC/5",
-        "Id" : "Weapon_Autocannon_RAC5_0-STOCK",
-        "Name" : "RAC/5",
+        "UIName" : "Rotary AC/5 + +",
+        "Id" : "Weapon_Autocannon_RAC5_2-Mydron",
+        "Name" : "RAC/5 + +",
         "Details" : "The Rotary Autocannon is a recent development by the Federated Commonwealth. Able to fire three times the shots that an Ultra ever can. However RACs are more prone to jamming, they chew through ammo faster than anything else, and have much shorter ranges than their normal counterparts.",
         "Icon" : "uixSvgIcon_weapon_Ballistic"
     },
-    "BonusValueA" : "",
+    "BonusValueA" : "- 10 Heat",
     "BonusValueB" : "",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
@@ -56,8 +56,8 @@
     ],
     "ComponentTags" : {
         "items" : [
-            "component_type_stock",
-            "component_type_lostech",
+            "component_type_variant",
+            "component_type_variant2",
             "range_long",
 			"wr-jammable_weapon",
             "wr-jam_chance_multiplier-25"

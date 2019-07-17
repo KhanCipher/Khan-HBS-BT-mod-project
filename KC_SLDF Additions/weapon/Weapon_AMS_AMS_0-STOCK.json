@@ -28,6 +28,7 @@
     "AttackRecoil" : 0,
     "Instability" : 0,
 	"IsAMS" : true,
+	"IsAAMS" : true,
 	"NotUseInMelee": true,
     "WeaponEffectID" : "WeaponEffect-Weapon_AC2",
     "Description" : {
